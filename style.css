@@ -50,6 +50,7 @@ body {
     font-size: 100%;
 }
 
+
 .contact-btn {
     background-color: orangered;
     color: white;
@@ -57,12 +58,12 @@ body {
     font-style: italic;
     font-weight: bold;
     font-size: 120%;
-    padding: 0.8em 2em;
+    padding: 20% 80%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    border-radius: 0.4em;
+    border-radius: 8%;
 }
 
 .hero-grid {
@@ -107,15 +108,15 @@ body {
     transform: translateX(-4%) translateY(35%);
 }
 
+
 .text-box h1 {
     color: white;
     font-family: Georgia, serif;
     font-style: italic;
     font-size: 300%;
     line-height: 1.45;
-    letter-spacing: 0.08em;
+    letter-spacing: 8%;
     text-align: center;
-    
 }
 
 @media (max-width: 900px) {
@@ -140,7 +141,7 @@ body {
 
     .contact-btn {
         font-size: 90%;
-        padding: 0.6em 1.5em;
+        padding: 6% 15%;
     }
 
     .text-box h1 {
@@ -178,7 +179,7 @@ body {
 
     .contact-btn {
         font-size: 80%;
-        padding: 0.5em 1.3em;
+        padding: 5% 13%;
     }
 
     .hero-grid {
@@ -197,4 +198,4 @@ body {
     .text-box h1 {
         font-size: 180%;
     }
-}
+} 
